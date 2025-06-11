@@ -4,13 +4,6 @@
     {
       "src": "api/*.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "index.html",
-      "use": "@vercel/static-build",
-      "config": {
-        "includeFiles": ["style.css", "script.js"]
-      }
     }
   ],
   "routes": [
