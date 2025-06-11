@@ -1,0 +1,12 @@
+{
+  "name": "notion-instagram-widget",
+  "version": "1.0.0",
+  "description": "Un widget Notion pour afficher un feed Instagram-like",
+  "main": "api/get-images.js",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14"
+  },
+  "scripts": {
+    "start": "node api/get-images.js"
+  }
+}
